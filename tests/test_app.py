@@ -28,3 +28,10 @@ def test_activities_endpoint_prevents_caching():
 
     assert response.status_code == 200
     assert response.headers["cache-control"] == "no-store"
+
+#ERROR Sorry, your request failed. Please try again.
+#Client Request Id: 2ee2d671-858c-4cd0-9d19-0933e62b90ce
+#GH Request Id: 4C41:31A534:17573DB:18CE9CF:6A3E9E27
+#Reason: token expired or invalid: 401
+#
+#No more tokens availables
